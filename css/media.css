@@ -1,0 +1,73 @@
+@media (max-width: 1199px){
+
+}
+@media (max-width: 991px){
+    .navbar {
+        margin-top: 0;
+    }
+    .navbar-brand img{
+        width: 140px;
+    }
+    .carousel-item h1 {
+        font-size: 25px;}
+
+    .carousel-item p {
+        font-size: 16px;
+    }    
+
+     .btn-dark{
+        
+       font-size: 11px;
+        }
+      .fa{
+          font-size: 10px;
+      } 
+      .carousel-item {
+        padding-bottom: 50px; 
+    
+}
+    .product a h1 {
+       font-size: 20px;
+       margin-top: 18px;   
+}
+    .product p {
+       font-size: 15px}
+    .product h2 {
+        font-size: 16px;}
+    .categories-section a h3 {
+       font-size: 20px}
+    }
+
+
+@media (max-width: 767px){
+    .carousel-item {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+}
+    .carousel-item img{
+        margin-top: 10px;
+        max-width: 350px;
+    }
+    .carousel-indicators li{
+        max-width: 10px;
+    }
+    .carousel-indicators .active{
+        max-width: 25px;
+    }
+    .product{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .categories-section h1 {
+        font-size: 25px;
+        margin-bottom: 17px;
+     }
+     .categories-section span {
+        height: 8px;
+        width: 67px;  
+}
+@media (max-width: 575px){
+   
+}
+}

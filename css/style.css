@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{
+    text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 15px;
+
+}
+.navbar {
+    margin-top: 30px;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 10px;
+    background-color: rgb(173, 162, 162);
+    border-radius: 30px;
+    border: 0 !important;
+    padding: 0 !important;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    width: 30px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff8d0c+0,ffce1a+99 */
+background: #ff8d0c; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff8d0c 0%, #ffce1a 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff8d0c 0%,#ffce1a 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff8d0c 0%,#ffce1a 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8d0c', endColorstr='#ffce1a',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+.carousel-item h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.carousel-item p{
+    font-size: 18px;
+    color: #6f6666f2;
+    opacity: 0.7;
+
+}
+.carousel-item {}
+.btn-dark{
+    background-color: #000;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn-dark:hover{
+    border: 1px solid #ff8d0c;;
+    background: #ff8d0c; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff8d0c 0%, #ffce1a 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff8d0c 0%,#ffce1a 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff8d0c 0%,#ffce1a 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8d0c', endColorstr='#ffce1a',GradientType=0 ); /* IE6-9 */
+}
+.btn-dark img{
+    color: #fff;
+    font-size: 15px;
+}
+
+.feature-product{
+  padding: 100px 0 50px;
+}
+.feature-product ul{
+   margin-bottom: 20px;
+}
+.feature-product ul li{
+
+}
+.feature-product ul li h1{
+ font-size: 25px;
+ font-weight: 700;
+}
+.feature-product ul li a{
+   color: #ff8d0c;
+   font-size: 18px;
+   font-weight: 600;
+}
+.product{
+    box-shadow: 0 0 17px rgba(95, 88, 88, 0.27);
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.product a{}
+.product a img{}
+.product a h1{
+    font-size: 25px;
+    text-decoration: none;
+    color: #333;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.product p{
+    font-size: 18px;
+    color: #6f6666f2;
+    opacity: 0.7;
+}
+.product h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333bd;
+}
+
+
+.product .btn{
+
+}
+.categories-section{
+    padding: 50px 0;
+}
+.categories-section h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.categories-section span{
+    border-radius: 30px;
+    display: block;
+    height: 13px;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 40px;
+    background: #ff8d0c; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff8d0c 0%, #ffce1a 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff8d0c 0%,#ffce1a 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff8d0c 0%,#ffce1a 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8d0c', endColorstr='#ffce1a',GradientType=0 ); /* IE6-9 */
+
+}
+.categories-section a{
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+
+}
+.categories-section a img{
+
+}
+.categories-section a h3{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+    color: #33333391;
+
+
+}
